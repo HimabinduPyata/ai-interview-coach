@@ -10,6 +10,7 @@ A simple AI-powered web app that generates interview preparation questions based
 - Generates behavioral questions
 - Suggests system design topics
 - Lists key skills to revise
+- Supports Junior, Mid-Level, and Senior interview preparation
 - Uses Streamlit UI
 
 ---
@@ -59,16 +60,15 @@ During this project, I learned how to:
 🚀 Example Use Case
 
 Input:
-
-- Backend Software Engineer
-- Python, AWS, Docker
+- Job Title: Backend Software Engineer
+- Experience Level: Mid-Level
+- Skills: Python, AWS, Docker, PostgreSQL
 
 Output:
-
-- Technical questions
-- Behavioral questions
+- Technical interview questions
+- Behavioral interview questions
 - System design topics
-- Skills to review
+- Key skills and concepts to review
 
 ---
 
