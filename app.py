@@ -8,6 +8,11 @@ st.write("Enter a job title and job description to generate interview preparatio
 # Inputs
 job_title = st.text_input("Job Title")
 
+level = st.selectbox(
+    "Experience Level",
+    ["Junior", "Mid-Level", "Senior"]
+)
+
 job_description = st.text_area(
     "Job Description",
     height=250
@@ -20,7 +25,7 @@ if st.button("Generate Questions"):
         st.warning("Please enter both job title and job description.")
     else:
         with st.spinner("Generating interview questions..."):
-            result = generate_questions(job_title, job_description)
+            result = generate_questions(job_title,level,job_description)
 
         st.subheader("📌 Interview Preparation")
         st.write(result)

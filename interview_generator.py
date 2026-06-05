@@ -4,7 +4,7 @@ from openai import OpenAI
 # Load API key from environment variable
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-def generate_questions(job_title, job_description):
+def generate_questions(job_title, level, job_description):
 
     response = client.chat.completions.create(
         model="gpt-4o-mini",
@@ -21,6 +21,9 @@ def generate_questions(job_title, job_description):
                 "content": f"""
 Job Title:
 {job_title}
+
+Experience Level:
+{level}
 
 Job Description:
 {job_description}
