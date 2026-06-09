@@ -1,10 +1,10 @@
-# 🎯 AI Interview Coach
+# AI Interview Coach
 
 A simple AI-powered web app that generates interview preparation questions based on a job description using OpenAI GPT models.
 
 ---
 
-## ✨ Features
+## Features
 
 - Generates technical interview questions
 - Generates behavioral questions
@@ -15,7 +15,7 @@ A simple AI-powered web app that generates interview preparation questions based
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python
 - OpenAI API
@@ -23,7 +23,7 @@ A simple AI-powered web app that generates interview preparation questions based
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repository
 ```bash
@@ -57,7 +57,7 @@ During this project, I learned how to:
 
 ---
 
-🚀 Example Use Case
+Example Use Case
 
 Input:
 - Job Title: Backend Software Engineer
